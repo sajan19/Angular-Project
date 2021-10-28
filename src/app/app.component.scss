@@ -1,0 +1,46 @@
+// h1{
+//     color: blue;
+// }
+
+.container{
+    background-color: purple;
+    height: 600px;
+    display: flex;
+    flex-direction: row; //default
+    // flex-direction: row-reverse;
+    // flex-direction: column;
+    // flex-direction: column-reverse;
+    // flex-wrap: nowrap;
+    // flex-wrap: wrap;
+    // flex-wrap: wrap-reverse;
+    //Shorthand for flex-direction and flex-wrap
+    // flex-flow: row wrap;
+    // justify-content: flex-start;
+    // justify-content: flex-end;
+    // justify-content: center;
+    // justify-content: space-between;
+    // justify-content: space-around;
+    // justify-content: space-evenly;
+
+    // align-items: flex-start;
+    // align-items: flex-end;
+    // align-items: center;
+    // align-items: stretch;
+    // align-items: baseline;
+
+    // align-content: flex-start;
+    // align-content: flex-end;
+    // align-content: flex-end;
+
+    gap: 100px;
+    
+    
+}
+.item{
+    background-color: orange;
+    height: 200px;
+    width: 100px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 10px;
+}
