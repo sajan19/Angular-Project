@@ -7,17 +7,18 @@ import { HeaderComponent } from './Components/header/header.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule, MatToolbar} from '@angular/material/toolbar';
-// import {MatToolbarModule, MatButtonModule, MatIconModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { DummyComponent } from './Components/dummy/dummy.component';
+import { HomePageComponent } from './Components/home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    DummyComponent
+    DummyComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
