@@ -1,31 +1,36 @@
-.example-spacer {
+  .header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  .example-spacer {
     flex: 1 1 auto;
+  }
+  .toolbar{
+    padding: 60px 30px;
+  }
+  .logo-img{
+    height: 45px;
+    padding-left: 60px;
+    padding-top: 10px;
+  }
+  .logo-img:hover{
+    cursor: pointer;
+  }
+  a{
+    font-size: 1.2rem;
   }
   a:hover {
     text-decoration: underline;
     cursor: pointer;
-  }  
-  .spacing{
-      display: flex;
-      flex-direction: column;
-      padding-left: 35px;
-      margin: 0;
-  }
-  .head1{
-    padding: 0 20px;
-    font-size: 1.6rem;
-    margin: 0px;
-  }
-  .head2{
-    // padding: 0 20px;
-    font-size: 0.8rem;
-    text-align: center;
-    margin: 0px;
-  }
-  a{
-      font-size: 1.2rem;
-  }
-  .em-icon{
-    padding-left: 30px;
-    font-size: 45px;
+  } 
+ .mat-button{
+    padding: 10px 30px;
+ }
+ .menu-bar{
+    padding: 10px 40px;
+ }
+.menu-bar:hover{
+    cursor: pointer;
 }

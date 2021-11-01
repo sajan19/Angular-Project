@@ -1,23 +1,18 @@
 .footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    height: 250px;
+    // height: 250px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    // padding-bottom: 50px;
+    // padding-right: 50px;
     color: white;
     background-color: black;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
-.foot__bottom{
-    position: absolute;
-    bottom: 0;
-    width: 30%;
-    padding: 30px;
-    color: white;
-    background-color: black;
-}
+
 .example-spacer {
     flex: 1 0 auto;
   }
@@ -29,7 +24,8 @@
       padding: 20px;
   }
   .col3{
-      padding: 20px;
+    //   padding: 20px;
+      padding-right: 70px;
       
   }
 //   .menu__item{
@@ -43,11 +39,11 @@
       margin: 10px;
       color: white;
   }
-  p{
-      padding: 10px;
-      margin: 10px;
-      color: white;
-  }
+//   p{
+//       padding: 10px;
+//       margin: 10px;
+//       color: white;
+//   }
   li{
       padding: 5px;
   }
@@ -63,3 +59,23 @@
       padding-left: 45px;
       font-size: 45px;
   }
+
+  .logo-img{
+    height: 60px;
+    padding-left: 80px;
+    padding-top: 10px;
+  }
+  .copyright{
+    display: block;
+    height: 50px;
+    position: relative;
+    bottom: 0;
+    width: 66%;
+    padding-left: 80px;
+    // padding-bottom: 30px;
+    // padding: 30px;
+    color: white;
+    background-color: black;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
