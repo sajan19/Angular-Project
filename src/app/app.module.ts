@@ -11,6 +11,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import { DummyComponent } from './Components/dummy/dummy.component';
 import { HomePageComponent } from './Components/home-page/home-page.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { HomePageComponent } from './Components/home-page/home-page.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatCardModule   
+
   ],
   providers: [],
   bootstrap: [AppComponent]
