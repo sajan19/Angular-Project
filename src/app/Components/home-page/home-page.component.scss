@@ -139,7 +139,7 @@
     padding-left: 700px;
 }
 
-.second{
+.section_2{
     display: inline-block;
     position: absolute;
     // flex-direction: row-reverse;
@@ -178,7 +178,7 @@
 .container_3{
     height: 100%;
     width: 100%;
-    border: 5px solid red;
+    // border: 5px solid red;
     padding: 30px 0px;
     // margin: 10px;
     z-index: -1;
@@ -340,20 +340,21 @@
         }
         .second{
             color: white;
-            padding-left:30px;
+            padding-left:35px;
 
         }
-        .mat-card-title{
+        .tit{
             color: white;
-            padding:30px;
-            font-size: 35px;
+            padding:35px;
+            font-size: 40px;
         }
-        .mat-card-subtitle{
+        .sub{
             color: white;
             padding-top:100px;
-            padding-left: 30px;
+            padding-left: 35px;
+            font-size: 20px;
         }
         .material-icons{
-            padding-right:20px;
+            padding-right:25px;
             font-size: 40px;
         }
