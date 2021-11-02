@@ -178,9 +178,10 @@
 .container_3{
     height: 100%;
     width: 100%;
-    // border: 5px solid red;
-    padding: 40px 0px;
-    // margin: 0;
+    border: 5px solid red;
+    padding: 30px 0px;
+    // margin: 10px;
+    z-index: -1;
 }
 .title {
     position: absolute;
@@ -220,3 +221,98 @@
     //   display: block;
       height: fit-content;
   }
+
+  //Container 4 Globe
+
+  .container_4{
+    height: 100%;
+    width: 100%;
+    border: 5px solid red;
+    padding: 60px 0px;
+    // margin: 0;
+    z-index: 2;
+    }
+
+  #div4{
+    height:50%;
+    width:100%;
+    background-color: white;
+    // background: url(../../../assets/gps/globe-usa.jpg) no-repeat center cover;
+    // z-index: 50;
+    // opacity: 0.3;
+    // border: 2px solid black; 
+    }
+    .count{
+        padding-top: 40px ;
+        padding-bottom: 40px ;
+        display: flex;
+        padding-left: 150px;
+    }
+    // .count::after{
+    //     background: url(../../../assets/gps/globe-usa.jpg) no-repeat 50%/cover;
+    // }
+    .country{
+        padding-right:40px ;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    // .bg_img {
+    //     background-image: url(../../../assets/gps/globe-usa.jpg); /* The image used */
+    //     background-color: #cccccc; /* Used if the image is unavailable */
+    //     height: 500px; /* You must set a specified height */
+    //     background-position: center; /* Center the image */
+    //     background-repeat: no-repeat; /* Do not repeat the image */
+    //     background-size: cover; /* Resize the background image to cover the entire container */
+    //     padding-top: 200px;
+    //   }
+
+    .container_5{
+        height: 100%;
+        width: 100%;
+        border: 5px solid red;
+        // padding: 60px 0px;
+        // margin: 0;
+        // z-index: 2;
+        }
+    
+      #div5{
+        height:100%;
+        width:70%;
+        padding-top: 120px;
+        // background-color: yellow;
+        background: url(../../../assets/gps/globe-usa.jpg) no-repeat 50%/cover;
+        // z-index: 50;
+        // opacity: 0.8;
+        // border: 2px solid black; 
+        }
+        .bg_color{
+            height: 70%;
+            width: 50%;
+            background-color: black;
+            position: absolute;
+            right: 0;
+            // top: 50;
+            // padding-top: 100px;
+        }
+        // .image_top{
+        //     height: 70%;
+        //     width: 25%;
+        //     position: relative;
+        //     top: 10;
+        //     // right: 0;
+        //     padding-left: 960px;
+        // }
+        // .img_grow{
+        //     height: 60%;
+        //     width: 100%;
+        // }
+        #img_float{
+            height: 580px;
+            width: 270px;
+            // width: 30%;
+            position: absolute;
+            padding-left: 960px;
+            padding-bottom: 100px;
+            // top: 10;
+            // justify-content: right;
+        }

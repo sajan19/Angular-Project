@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import { NgImageSliderModule } from 'ng-image-slider';
 
 @Component({
   selector: 'app-dummy',
@@ -11,5 +12,4 @@ export class DummyComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-}
+ }
