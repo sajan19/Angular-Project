@@ -1,81 +1,191 @@
-.footer{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    // height: 250px;
-    padding-top: 50px;
-    // padding-bottom: 50px;
-    // padding-right: 50px;
-    color: white;
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+// .footer{
+//     position: relative;
+//     bottom: 0;
+//     width: 100%;
+//     // height: 250px;
+//     padding-top: 50px;
+//     // padding-bottom: 50px;
+//     // padding-right: 50px;
+//     color: white;
+//     background-color: black;
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+// }
 
-.example-spacer {
-    flex: 1 0 auto;
-  }
+// .example-spacer {
+//     flex: 1 0 auto;
+//   }
 
-  .col1{
-      padding: 20px;
-  }
-  .col2{
-      padding: 20px;
-  }
-  .col3{
-    //   padding: 20px;
-      padding-right: 70px;
+//   .col1{
+//       padding: 20px;
+//   }
+//   .col2{
+//       padding: 20px;
+//   }
+//   .col3{
+//     //   padding: 20px;
+//       padding-right: 70px;
       
-  }
-//   .menu__item{
+//   }
+// //   .menu__item{
+// //     list-style-type: none;
+// //   }
+//   .hello{
 //     list-style-type: none;
 //   }
-  .hello{
-    list-style-type: none;
-  }
   a{
-      padding: 10px;
-      margin: 10px;
+      padding-top: 10px;
+      // margin: 10px;
       color: white;
   }
-//   p{
-//       padding: 10px;
-//       margin: 10px;
-//       color: white;
-//   }
+  // p{
+  //     padding-bottom: 10px;
+  //     // margin: 10px;
+  //     color: white;
+  // }
   li{
-      padding: 5px;
+      padding: 10px;
   }
-  .hover:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  } 
+//   .hover:hover {
+//     text-decoration: underline;
+//     cursor: pointer;
+//   } 
   a:hover {
     text-decoration: underline;
     cursor: pointer;
   } 
-  .em-icon{
-      padding-left: 45px;
-      font-size: 45px;
-  }
+//   .em-icon{
+//       padding-left: 45px;
+//       font-size: 45px;
+//   }
 
-  .logo-img{
-    height: 60px;
-    padding-left: 80px;
-    padding-top: 10px;
-  }
-  .copyright{
-    display: block;
-    height: 50px;
-    position: relative;
-    bottom: 0;
-    width: 66%;
-    padding-left: 80px;
-    // padding-bottom: 30px;
-    // padding: 30px;
-    color: white;
-    background-color: black;
-    flex-direction: column;
-    flex-wrap: wrap;
+//   .logo-img{
+//     height: 60px;
+//     padding-left: 80px;
+//     padding-top: 10px;
+//   }
+//   .copyright{
+//     display: block;
+//     height: 50px;
+//     position: absolute;
+//     bottom: 0;
+//     width: 66%;
+//     // padding-left: 80px;
+//     // padding-bottom: 30px;
+//     // padding: 30px;
+//     color: white;
+//     background-color: black;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+// }
+
+/* 
+
+*{
+
+  margin: 0;
+  padding: 0;
 }
+.container_ft{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  background-color: black;
+}
+.copyright{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding-left: 90px;
+  padding-bottom: 80px;
+}
+.logo-img{
+      height: 60px;
+      padding-left: 90px;
+      padding-top: 100px;
+}
+
+.footer_container_2{
+display: block;
+position: relative;
+margin: auto;
+// padding-left: 700px;
+color: white;
+// padding: 20px;
+position: relative;
+border: 2px solid red;
+}
+.col1 p{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.col1 a{
+  color: white;
+  padding: 20px 0px;
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main_container{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 70%;
+  background-color: red;
+  // border: 2px solid yellow;
+
+}
+.container_ft_1{
+width: 45%;
+background-color: black;
+// border: 2px solid red;
+}
+.container_ft_2{
+width: 55%;
+background-color: black;
+// border: 2px solid black;
+display: flex;
+  flex-direction: row;
+}
+.copyright{
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding-left: 90px;
+  padding-bottom: 80px;
+}
+.logo-img{
+      height: 60px;
+      padding-left: 90px;
+      padding-top: 100px;
+}
+.column_1, .column_2, .column_3{
+  // border: 2px solid rgb(87, 47, 87);
+  padding: 100px 50px;
+}
+.column_1 p{
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.column_1 a{
+  color: white;
+  padding: 20px 0px;
+} 
+.menu__item{
+      list-style-type: none;
+    }
+    .hello{
+      list-style-type: none;
+    }
