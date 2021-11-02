@@ -285,15 +285,15 @@
         // opacity: 0.8;
         // border: 2px solid black; 
         }
-        .bg_color{
-            height: 70%;
-            width: 50%;
-            background-color: black;
-            position: absolute;
-            right: 0;
-            // top: 50;
-            // padding-top: 100px;
-        }
+        // .bg_color{
+        //     // height: 70%;
+        //     // width: 50%;
+        //     background-color: black;
+        //     position: absolute;
+        //     right: 0;
+        //     // top: 50;
+        //     // padding-top: 100px;
+        // }
         // .image_top{
         //     height: 70%;
         //     width: 25%;
@@ -306,13 +306,54 @@
         //     height: 60%;
         //     width: 100%;
         // }
+        #bg_card{
+            // padding-top:150px;
+            height: 65%;
+            width: 45%;
+            background-color: black;
+            position: absolute;
+            right: 0;
+            z-index: 20;
+            // padding-top: 220px;
+        }
         #img_float{
             height: 580px;
             width: 270px;
             // width: 30%;
             position: absolute;
-            padding-left: 960px;
-            padding-bottom: 100px;
+            // right: 10;
+            padding-left: 1030px;
+            // padding-top: 120px;
+            // padding-bottom: 600px;
+            // padding-top: 100px;
+            // padding-bottom: 100px;
             // top: 10;
             // justify-content: right;
+            z-index: 30;
+        }
+        .first{
+            color: white;
+            padding:30px;
+            // background-color: yellow;
+            // height: 450px;
+            // width: 300px;
+        }
+        .second{
+            color: white;
+            padding-left:30px;
+
+        }
+        .mat-card-title{
+            color: white;
+            padding:30px;
+            font-size: 35px;
+        }
+        .mat-card-subtitle{
+            color: white;
+            padding-top:100px;
+            padding-left: 30px;
+        }
+        .material-icons{
+            padding-right:20px;
+            font-size: 40px;
         }
