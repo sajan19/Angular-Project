@@ -9,7 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule, MatToolbar} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import { DummyComponent } from './Components/dummy/dummy.component';
+// import { DummyComponent } from './Components/dummy/dummy.component';
 import { HomePageComponent } from './Components/home-page/home-page.component';
 import {MatCardModule} from '@angular/material/card';
 import {NgImageSliderModule} from 'ng-image-slider';
@@ -21,7 +21,7 @@ import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    DummyComponent,
+    // DummyComponent,
     HomePageComponent,
     AboutDlcComponent,
     

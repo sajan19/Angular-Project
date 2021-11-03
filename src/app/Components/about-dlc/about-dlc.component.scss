@@ -6,8 +6,47 @@
     background-color: black;
     height: 100vh;
     width: 100wh;
+    position: relative;
 }
 .bg_img{
     height: 100%;
     width: 100%;
+    position: relative;
 }
+// .heading{
+//     height:30%;
+//     width: 40%;
+//     background-color: yellow;
+//     color: white;
+//     position: absolute;
+// }
+.first-txt {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 17px;
+    left: 50px;
+    color: white;
+}
+
+.second-txt {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+.title {
+    position: absolute;
+    top: 290px;
+    left: 290px;
+    color:white;
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .subtitle {
+    position: absolute;
+    top: 350px;
+    left: 290px;
+    color: white;
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+  }
