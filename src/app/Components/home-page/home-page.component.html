@@ -95,32 +95,37 @@
     
     <!-- Section to display Video inside Images -->
 <section class="container_6">
-    <!-- <div class="slide_11">
-        <img src="../../../assets/section-5/slider_img_1.jpg" alt="" srcset="">
-    </div>
-    <div>
-        <img class="" src="../../../assets/section-5/slider_img_2.jpg" alt="" srcset="">
-    </div>
-    <div>
-        <img class="" src="../../../assets/section-5/slider_img_3.jpg" alt="" srcset="">
-    </div> -->
+    <!-- <div *ngif = "displayImage"> -->
 
-    <div class="one">
-        <img class="img_sld_1" src="../../../assets/section-5/slider_img_1.jpg" alt="" srcset="">
-       <h1 class="img_h1">Experiences</h1>
-       <button class="btn"><i class="material-icons">arrow_forward</i></button>
-       <!-- <i class="material-icons btn">arrow_forward</i> -->
+        
+        <div class="one">
+            <img class="img_sld_1" src="../../../assets/section-5/slider_img_1.jpg" alt="" srcset="">
+            <h1 class="img_h1">Experiences</h1>
+            <!-- <button onclick="Submit" class="btn"><i class="material-icons">arrow_forward</i></button> -->
+            <button class="btn" ><mat-icon>arrow_forward</mat-icon></button>
+            
+        </div>
+        <div class="two">
+            <img class="img_sld_1" src="../../../assets/section-5/slider_img_2.jpg" alt="" srcset="">
+            <h1 class="img_h1">Lifestyle</h1>
+            <!-- <button class="btn"><i class="material-icons">arrow_forward</i></button> -->
+            <button class="btn" ><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+        <div class="three">
+            <img class="img_sld_1" src="../../../assets/section-5/slider_img_3.jpg" alt="" srcset="">
+            <h1 class="img_h1">Wellness</h1>
+            <!-- <button class="btn"><i class="material-icons">arrow_forward</i></button> -->
+            <button class="btn" ><mat-icon>arrow_forward</mat-icon></button>
+        </div>
+    <!-- </div> -->
+    <div *ngif = "displayVideo_1">
+        <video class="js-panels__video" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" preload="metadata" muted="" loop="" playsinline=""></video>
     </div>
-    <div class="two">
-    
-        <img class="img_sld_1" src="../../../assets/section-5/slider_img_2.jpg" alt="" srcset="">
-        <h1 class="img_h1">Lifestyle</h1>
-        <button class="btn"><i class="material-icons">arrow_forward</i></button>
+    <div *ngif = "displayVideo_2">
+        <video class="js-panels__video" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" preload="metadata" muted="" loop="" playsinline=""></video>
     </div>
-    <div class="three">
-        <img class="img_sld_1" src="../../../assets/section-5/slider_img_3.jpg" alt="" srcset="">
-        <h1 class="img_h1">Wellness</h1>
-        <button class="btn"><i class="material-icons">arrow_forward</i></button>
+    <div *ngif = "displayVideo_3">
+        <video class="js-panels__video" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" preload="metadata" muted="" loop="" playsinline=""></video>
     </div>
     
 </section>

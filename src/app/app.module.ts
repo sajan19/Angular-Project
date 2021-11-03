@@ -13,6 +13,8 @@ import { DummyComponent } from './Components/dummy/dummy.component';
 import { HomePageComponent } from './Components/home-page/home-page.component';
 import {MatCardModule} from '@angular/material/card';
 import {NgImageSliderModule} from 'ng-image-slider';
+import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {NgImageSliderModule} from 'ng-image-slider';
     HeaderComponent,
     FooterComponent,
     DummyComponent,
-    HomePageComponent
+    HomePageComponent,
+    AboutDlcComponent,
+    
   ],
   imports: [
     BrowserModule,
