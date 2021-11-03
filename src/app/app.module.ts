@@ -12,7 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { DummyComponent } from './Components/dummy/dummy.component';
 import { HomePageComponent } from './Components/home-page/home-page.component';
 import {MatCardModule} from '@angular/material/card';
-// import {NgImageSliderModule} from 'ng-image-slider';
+import {NgImageSliderModule} from 'ng-image-slider';
 
 @NgModule({
   declarations: [
@@ -30,7 +30,7 @@ import {MatCardModule} from '@angular/material/card';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    // NgImageSliderModule     
+    NgImageSliderModule     
 
   ],
   providers: [],

@@ -1,26 +1,4 @@
-<!-- <div class="container">
 
-    <div>
-        <video class="video" src="https://player.vimeo.com/external/536055631.hd.mp4?s=7f6a254bdf972674127e5909312fa5de8b8d2453&amp;profile_id=174&amp;download=1" data-length="" muted="" loop="" autoplay="" playsinline="" controls="" ></video>
-    </div>
-    <div>
-        <img class="video" src="https://dxaurk9yhilm4.cloudfront.net/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg" alt="No Image Available" srcset="">
-         <img src ="/src/assets/bg_img.jpg" class="img" alt="" srcset=""> -->
-    <!-- </div>
-    <div class="c-img-txt-2__bg u-bg-white" style="background-image: url(');"></div> -->
-<!-- </div> -->
-
-<!-- <div class="container">
-    <div class="item">Hello</div>
-    <div class="item">From </div>
-    <div class="item">The </div>
-    <div class="item">Other Side </div>
-</div> -->
-
-<!-- <section id="div1">
-    <p>Discover</p>
-    <p>your world</p>
-</section> -->
 <section class="container_1">
     <video id = "div1"class="video" src="https://player.vimeo.com/external/536055631.hd.mp4?s=7f6a254bdf972674127e5909312fa5de8b8d2453&amp;profile_id=174&amp;download=1" data-length="" muted="" loop="" autoplay="" playsinline="" >
         <!-- <div class="heading">Discover</div>
@@ -56,66 +34,25 @@
     <!-- </div> -->
 </section>
 
+<!-- Image Slider Section -->
 <section class="container_3" id="div3">
-    <div class="">
+    
         <div class="heading1">Explore</div>
         <div class="heading2">our worlds</div>
-        <!-- <button type="button" class="previous" aria-label="Previous"></button>
-        <button type="button" class="next" aria-label="Next"></button> -->
-        <div class="slider">
-            <!-- <img class="card" src="../../../assets/slider/Slider_img1.jpg" alt="" srcset="">
-            <h1 class="title1">North Shore Preserve</h1>
-            <h3 class="title2">Kaua'i, Hawaii</h3> -->
-            <mat-card>
-                <img class="card_img" src="../../../assets/slider/Slider_img1.jpg" alt="" srcset="">
-                <mat-card-title class="card_title">North Shore Preserve</mat-card-title>
-                <mat-card-subtitle class="card_subtitle">Kaua'i, Hawaii</mat-card-subtitle>
-            </mat-card>
-            <mat-card>
-                <img class="card_img" src="../../../assets/slider/Slider_img2.jpg" alt="" srcset="">
-                <mat-card-title class="card_title">CostaTerra</mat-card-title>
-                <mat-card-subtitle class="card_subtitle">Comporta, Portugal</mat-card-subtitle>
-            </mat-card>
-            <mat-card>
-                <img class="card_img" src="../../../assets/slider/Slider_img3.jpg" alt="" srcset="">
-                <mat-card-title class="card_title">Driftwood</mat-card-title>
-                <mat-card-subtitle class="card_subtitle">Austin, Texas</mat-card-subtitle>
-            </mat-card>
-            <mat-card>
-                <img class="card_img" src="../../../assets/slider/Slider_img4.jpg" alt="" srcset="">
-                <mat-card-title class="card_title">Troubadour</mat-card-title>
-                <mat-card-subtitle class="card_subtitle">Nashville, Tennessee</mat-card-subtitle>
-            </mat-card>
-            
-            <!-- <mat-card> <img class="card" src="../../../assets/slider/Slider_img2.jpg" alt="" srcset="">
-                
-                <mat-card-title class="bottom-left">CostaTerra</mat-card-title>
-                <mat-card-subtitle class="">Comporta, Portugal</mat-card-subtitle>
-            </mat-card>
-            <mat-card> <img class="card" src="../../../assets/slider/Slider_img3.jpg" alt="" srcset="">
-               <mat-card-title>Shiba Inu</mat-card-title>
-                <mat-card-title class="bottom-left">Driftwood</mat-card-title>
-                <mat-card-subtitle class="">Austin, Texas</mat-card-subtitle>
-            </mat-card>
-            <mat-card> <img class="card" src="../../../assets/slider/Slider_img4.jpg" alt="" srcset="">
-                <mat-card-title>Shiba Inu</mat-card-title> 
-                <mat-card-title class="title1">Troubadour</mat-card-title>
-                <mat-card-subtitle class="title2">Nashville, Tennessee</mat-card-subtitle>
-            </mat-card>  -->
-
-           
-            <!-- <img class="card"  src="../../../assets/slider/Slider_img2.jpg" alt="" srcset=""> -->
-            <!-- <img class="card"  src="../../../assets/slider/Slider_img3.jpg" alt="" srcset="">
-            <img class="card"  src="../../../assets/slider/Slider_img4.jpg" alt="" srcset="">
-            <img class="card"  src="../../../assets/slider/Slider_img5.jpg" alt="" srcset="">
-            <img class="card"  src="../../../assets/slider/Slider_img6.jpg" alt="" srcset="">
-            <img class="card"  src="../../../assets/slider/Slider_img7.jpg" alt="" srcset=""> -->
-        </div>
-        </div>
+        <div>
+            <ng-image-slider #nav
+            [images]="imageObject"
+            [infinite]="true"
+            [autoSlide]="0.1"
+            [animationSpeed]="5"
+            [showArrow]="false"
+            [imageSize]="{width: '30%', height: 500}"
+            ></ng-image-slider>
+        </div> 
     </section>
 
 
-    //Section to showcase to Globe
+    <!-- //Section to showcase to Globe -->
 
     <section class="container_4" id="div4">
         <div class="">
@@ -152,15 +89,38 @@
                 <mat-card-subtitle class="sub" >Austin, Texas</mat-card-subtitle >
                 <mat-card-title class="tit" >Driftwood</mat-card-title>
             </div>
-                
-            
-             
         </mat-card>
-       
-                
-       
     </section>
     
     
-    
+    <!-- Section to display Video inside Images -->
+<section class="container_6">
+    <!-- <div class="slide_11">
+        <img src="../../../assets/section-5/slider_img_1.jpg" alt="" srcset="">
+    </div>
+    <div>
+        <img class="" src="../../../assets/section-5/slider_img_2.jpg" alt="" srcset="">
+    </div>
+    <div>
+        <img class="" src="../../../assets/section-5/slider_img_3.jpg" alt="" srcset="">
+    </div> -->
 
+    <div class="one">
+        <img class="img_sld_1" src="../../../assets/section-5/slider_img_1.jpg" alt="" srcset="">
+       <h1 class="img_h1">Experiences</h1>
+       <button class="btn"><i class="material-icons">arrow_forward</i></button>
+       <!-- <i class="material-icons btn">arrow_forward</i> -->
+    </div>
+    <div class="two">
+    
+        <img class="img_sld_1" src="../../../assets/section-5/slider_img_2.jpg" alt="" srcset="">
+        <h1 class="img_h1">Lifestyle</h1>
+        <button class="btn"><i class="material-icons">arrow_forward</i></button>
+    </div>
+    <div class="three">
+        <img class="img_sld_1" src="../../../assets/section-5/slider_img_3.jpg" alt="" srcset="">
+        <h1 class="img_h1">Wellness</h1>
+        <button class="btn"><i class="material-icons">arrow_forward</i></button>
+    </div>
+    
+</section>
