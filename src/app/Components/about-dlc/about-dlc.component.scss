@@ -107,8 +107,8 @@
     height: 100vh;
     width: 100wh;
     background-color: white;
-    border: 2px solid purple;
-    background-color: pink;
+    // border: 2px solid purple;
+    // background-color: pink;
     padding: 110px 50px;
   //   opacity: 0.7;
 }
@@ -122,8 +122,6 @@
     height: 100vh;
     width: 100wh;
     background-color: white;
-    border: 2px solid green;
-    background-color: yellow;
     // padding: 110px 50px;
   //   opacity: 0.7;
 }
@@ -134,4 +132,14 @@
     font-size: 40px;
     padding-bottom: 50px;
     opacity: 0.8;
+}
+
+// Section 6
+.container_5{
+    height: 100vh;
+    width: 100wh;
+}
+.sec_6_img{
+    height: 100%;
+    width: 100%;
 }
