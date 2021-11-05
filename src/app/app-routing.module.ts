@@ -5,6 +5,7 @@ import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { HomePageComponent } from './Components/home-page/home-page.component';
+import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component';
 
 const routes: Routes = [
   {path: 'header', component: HeaderComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   // {path: 'dummy', component: DummyComponent},
   {path: 'home-page', component: HomePageComponent},
   {path: 'about-dlc', component: AboutDlcComponent},
+  {path: 'our-worlds', component: OurWorldsComponent},
 ];
 
 @NgModule({

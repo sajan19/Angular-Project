@@ -14,6 +14,7 @@ import { HomePageComponent } from './Components/home-page/home-page.component';
 import {MatCardModule} from '@angular/material/card';
 import {NgImageSliderModule} from 'ng-image-slider';
 import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
+import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
     // DummyComponent,
     HomePageComponent,
     AboutDlcComponent,
+    OurWorldsComponent,
     
   ],
   imports: [
