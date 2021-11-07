@@ -16,6 +16,7 @@ import {NgImageSliderModule} from 'ng-image-slider';
 import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
 import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component';
 import { ExperiencesComponent } from './Components/experiences/experiences.component';
+import { GalleryComponent } from './Components/gallery/gallery.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { ExperiencesComponent } from './Components/experiences/experiences.compo
     AboutDlcComponent,
     OurWorldsComponent,
     ExperiencesComponent,
+    GalleryComponent,
     
   ],
   imports: [
