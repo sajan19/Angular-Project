@@ -1,36 +1,51 @@
-  .header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    overflow: hidden;
-  }
-  .example-spacer {
-    flex: 1 1 auto;
-  }
-  .toolbar{
-    padding: 60px 30px;
-  }
-  .logo-img{
-    height: 45px;
-    padding-left: 60px;
-    padding-top: 10px;
-  }
-  .logo-img:hover{
-    cursor: pointer;
-  }
-  a{
-    font-size: 1.2rem;
-  }
-  a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-  } 
- .mat-button{
-    padding: 10px 30px;
- }
- .menu-bar{
-    padding: 10px 40px;
- }
-.menu-bar:hover{
-    cursor: pointer;
+
+.container_1{
+  width: 100%;
+  top: 0;
+  display: flex;
+  // position: sticky;
+  // overflow:hidden;
+  background: transparent;
+  position: absolute;
+  background-color: none;
+  z-index: 5;
+  
+}
+.logo{
+  // height: 80px;
+  height: 50px;
+  width: 200px;
+  margin-left: 100px;
+  margin-top: 30px;
+  filter: invert(100%)
+}
+.spacer {
+  flex: 1 1 auto;
+}
+.tag{
+  padding: 10px 30px;
+  color: white;
+}
+a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+} 
+.menu_bar{
+  margin-top: 45px;
+  margin-left: 20px;
+  color: white;  
+}
+.menu_bar:hover{
+  cursor: pointer;
+} 
+.nav_bar{
+  margin-top: 45px;
+  margin-left: 200px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
