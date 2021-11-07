@@ -102,13 +102,14 @@
 //Section 4
 
 .container_4{
-    height: 150%;
+    height: 135%;
     width: 100%;
     // background-color: rgb(192, 192, 192);
-     background-color: rgb(216, 203, 203);
+     background-color: #cdc6c6;
     // background-color: red;
-    opacity: 0.9;
+    opacity: 0.85;
     z-index: -1;
+    // padding-bottom: 50px;
 }
 .sec_4_img{
     width: 1016px ;
@@ -169,4 +170,88 @@
     z-index: 1;
     // margin-bottom: 50px;
     // margin: 20px;
+}
+.container_6{
+    height: 135%;
+    width: 100%;
+    // background-color: rgb(192, 192, 192);
+    background-color: #cdc6c6;
+    //  background-color: rgb(197, 190, 190);
+    // background-color: red;
+    opacity: 0.85;
+    z-index: -1;
+    padding-bottom: 120px;
+}
+//Section 5
+.block_3{
+    height: 500px;
+    width: 520px;
+    background-color: white;
+    border: 1px solid white;
+    // order: 5;
+    position: relative;
+    left: 100px;
+    top: 230px;
+    z-index: 5;
+}
+.block_4{
+    height: 200px;
+    width: 870px;
+    // background-color: red;
+    position: relative;
+    top: 230px;
+    left: 280px;
+    background-color: rgb(173, 163, 163);
+    // background-color: rgb(216, 203, 203);
+    z-index: 1;
+    // margin-bottom: 50px;
+    // margin: 20px;
+}
+.sec_5_img{
+    width: 1016px ;
+    height: 753px;
+    // opacity: 0.9;
+    position: absolute;
+    right: 0;
+    padding-top: 130px;
+    // order: 4;
+    z-index: 3;
+}
+
+//Section 7
+
+.container_7{
+    height: 70%;
+    width: 100wh;
+    // border: 2px solid purple;
+    // padding-top: 270px;
+    position: relative;
+    opacity: 0.9;
+    // background-color: pink;
+}
+.content_center{
+    color:white;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+.btn_2{
+    position: relative;
+    font-size: 20px;
+    padding: 20px 40px;
+    opacity: 0.7;
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;    
+}
+.sec_7{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    // background-color: yellow;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../../assets/experiences/section_6_img_1.jpg);
+    // padding-top: 30px;
 }
