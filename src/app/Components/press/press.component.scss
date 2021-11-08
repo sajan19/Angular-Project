@@ -1,164 +1,117 @@
-// Section 6 TO display Video inside Image
-
-.container_1{
-    background-color: pink;
+.container_1 {
     height: 100%;
     width: 100%;
-    border: 2px solid red;
+    // background-color: red;
+    // opacity: 0.9;
 }
-.container_6{
-    border: 2px solid purple;
-    background-color: yellow;
-    height: 100vh;
-    width: 100wh;
-    // background-color: pink;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    // opacity: 0.89;
-}
-.one{
-    height: 100%;
-    width: 33%;
-    border: 2px solid blue;
-    background-color: cyan;
-    position: relative;
-}
-.two{
-    height: 100%;
-    width: 33%;
-    border: 2px solid blue;
-    background-color: cyan;
-    position: relative;
-}
-.img_sld_1{
+.bg_img {
     height: 100%;
     width: 100%;
     position: relative;
 }
-.img_h1 {
+.title {
     position: absolute;
-    // text-align: center;
-    top: 270px;
-    left: 90px;
+    top: 290px;
+    left: 290px;
     color: white;
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
+    opacity: 0.9;
 }
-.img_h2 {
+.subtitle {
     position: absolute;
-    // text-align: center;
-    top: 270px;
-    left: 90px;
+    top: 350px;
+    left: 290px;
     color: white;
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.img_h3 {
-    position: absolute;
-    // text-align: center;
-    top: 270px;
-    left: 90px;
-    color: white;
-    font-size: 40px;
-    letter-spacing: 4px;
-    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-family: "Times New Roman", Times, serif;
+    opacity: 0.9;
 }
 
-
-.three{
-    height: 100%;
-    width: 33%;
-    border: 2px solid blue;
-    background-color: maroon;
-    position: relative;
-}
-
-.btn_1{
-    position: absolute;
-    background: transparent;
-    top: 370px;
-    left: 180px;
-    border-color: white;
-    color: white;
-    font-size: 40px;
-    border-radius: 85px;
-    padding-left: 15px;
-    cursor: pointer;
-}
-.btn_2{
-    position: absolute;
-    background: transparent;
-    top: 370px;
-    left: 180px;
-    border-color: white;
-    color: white;
-    font-size: 40px;
-    border-radius: 85px;
-    padding-left: 15px;
-    cursor: pointer;
-}
-.btn_3{
-    position: absolute;
-    background: transparent;
-    top: 370px;
-    left: 180px;
-    border-color: white;
-    color: white;
-    font-size: 40px;
-    border-radius: 85px;
-    padding-left: 15px;
-    cursor: pointer;
-}
-.video{
-    position: absolute;
-    // height: 100%;
+//Section-2
+.container_2 {
+    height: 163%;
     width: 100%;
-    top: 0;
-    left: 0;
-    // z-index: 6;
+    background-color: rgb(182, 178, 178);
 }
-.close_btn{
-    position: absolute;
-    border: none;
-    background: transparent;
-    top: 33px;
-    right: 40px;
-    padding: 15px;
-    font-size: 35px;
-    color: black;
+.heading {
+    font-size: 40px;
+    padding: 70px 140px;
+    font-family: "Times New Roman", Times, serif;
+}
+.part_1 {
+    height: 100%;
+    width: 70%;
     // background-color: red;
 }
-.content_1{
+.image {
+    height: 791px;
+    width: 802px;
+    // background-color: red;
+    z-index: 5;
+    margin-left: 70px;
     position: absolute;
-    top: 185px;
-    left: 140px;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
 }
-.heading_1{
-font-size: 40px;
-margin-bottom: 35px;
-position: relative;
+.block_1 {
+    height: 700px;
+    width: 526px;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    left: 770px;
+    top: 133%;
+    z-index: 5;
 }
-.para{
-    padding: 5px 0px;
+.header {
+    padding-top: 10px;
+    padding-left: 70px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    padding-bottom: 30px;
+    opacity: 0.7;
+}
+.head_1 {
+    padding-top: 50px;
+    padding-left: 70px;
+    font-family: "Times New Roman", Times, serif;
     font-size: 20px;
-    position: relative;
+    padding-bottom: 10px;
+    opacity: 0.7;
 }
-
-.btn_1234{
+.content {
+    padding-left: 70px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    opacity: 0.8;
+    font-family: "Times New Roman", Times, serif;
+}
+.btn_1 {
     position: relative;
-    font-size: 20px;
-    padding: 20px 40px;
-    // opacity: 0.7;
+    font-size: 15px;
+    margin-left: 70px;
     margin-top: 50px;
-    background-color:transparent;
-    color: white;
+    padding: 22px 57px;
+    opacity: 0.7;
+    background-color: transparent;
+    color: black;
     cursor: pointer;
-    border: 1px solid white;    
+    border: 1px solid black;
+    // background-color: red;
+}
+.nav {
+    width: 100%;
+    height: 50px;
+    // background-color: red;
+    z-index: 3;
+    position: absolute;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    top: 250%;
+    opacity: 0.9;
+}
+.mat-icon{
+    padding: 1px 32px;
+    font-size: 45px;
+    opacity: 0.9;
 }

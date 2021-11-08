@@ -1,60 +1,33 @@
 <app-header></app-header>
 <section class="container_1">
-
-</section>
-<section class="container_6">
-    <div class="one">
-        <img class="img_sld_1" src="../../../assets/section-5/slider_img_1.jpg" alt="" srcset="">
-        <h1 class="img_h1">Experiences</h1>
-        <button (click)="image1Click()" class="btn_1" ><mat-icon>arrow_forward</mat-icon></button>
-    </div>
-    <div class="two">
-        <img class="img_sld_1" src="../../../assets/section-5/slider_img_2.jpg" alt="" srcset="">
-        <h1 class="img_h2">Lifestyle</h1>
-        <button (click)="image2Click()" class="btn_2" ><mat-icon>arrow_forward</mat-icon></button>
-    </div>
-    <div class="three">
-        <img class="img_sld_1" src="../../../assets/section-5/slider_img_3.jpg" alt="" srcset="">
-        <h1 class="img_h3">Wellness</h1>
-        <button (click)="image3Click()" class="btn_3" ><mat-icon>arrow_forward</mat-icon></button>          
-    </div>
+    <img class="bg_img" src="../../../assets/Press/img_1.jpg" alt="" srcset="">
+    <div class="title">News</div>
+    <div class="subtitle">and Press</div>
 </section>
 
-<div *ngIf="displayVideo_1">
-    <video autoplay loop muted class="video" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236"></video> 
-     <div class="content_1">
-         <div class="heading_1">Experiences</div>
-         <div class="para">Experiences the ultimate round of golf on championship</div>
-         <div class="para">courses designed by the world's most highly acclaimed</div>
-         <div class="para">architects or take a trilling adventre with limitless</div>
-         <div class="para">activities for everyone to enjoy.</div>
-         <button class="btn_1234">Explore</button>
-     </div>
-    <button (click)="closeVideo()"class="close_btn">X</button>
-</div>
-<div *ngIf="displayVideo_2">
-    <video autoplay loop muted class="video" src="https://dxaurk9yhilm4.cloudfront.net/lifestyle.mp4?mtime=20190609070318" preload="metadata"></video>
-    <div class="content_1">
-        <div class="heading_1">Lifestyle</div>
-        <div class="para">Relish the very best times of your life with the ones you</div>
-        <div class="para">love in our bespoke communities that cater to a family</div>
-        <div class="para">orientated lifestyle through unparalleled amenitiess and</div>
-        <div class="para">inspired experiences.</div>
-        <button class="btn_1234">Explore</button>
+<section class="container_2">
+    <div class="heading">Latest news</div>
+    <div class="part_1">
+        <img class="image" src="../../../assets/Press/img_12.jpg" alt="" srcset="">
     </div>
-    <button (click)="closeVideo()" class="close_btn">X</button>
-</div>
+    <div class="block_1 ">
+        <div class="head_1">News</div>
+        <div class="header">
+            <div class="head_2">Discovery's newest</div>
+            <div class="head_2">property in Kaua'i North</div>
+            <div class="head_2">Shore Preserve</div>
+        </div>
+        <div class="content">Discovery land Company is excited to announce our</div>
+        <div class="content">25th residential club community on the majestic</div>
+        <div class="content">North Shore of Kaua'i North Shore Preserve, a one-of-</div>
+        <div class="content">a-kind residential community, spans one thousand</div>
+        <div class="content">acres at the base of the mountains in the pastoral</div>
+        <div class="content">Hanalei valley. This newly re-imagined, low-density</div>
+        <div class="content">project is a secluded and peaceful island oasis with</div>
+        <div class="content">limited initial homesite and hale offerings</div>
 
-<div *ngIf="displayVideo_3">
-    <video autoplay loop muted class="video" src="https://dxaurk9yhilm4.cloudfront.net/wellness.mp4?mtime=20190609070447" preload="metadata" preload="metadata"></video>
-    <div class="content_1">
-        <div class="heading_1">Wellness</div>
-        <div class="para">Relax and refresh your body and your mind in exquisite</div>
-        <div class="para">surroundings. Escape to our stunning pools, unwind in</div>
-        <div class="para">relaxing spas and explore innovative international</div>
-        <div class="para">culinary offerings.</div>
-        <button class="btn_1234">Explore</button>
+        <div><button class="btn_1">Read Article</button></div>
     </div>
-    <button (click)="closeVideo()" class="close_btn">X</button>
-</div>
+    <div class="nav"> <mat-icon>arrow_backward</mat-icon> 1  -  4 <mat-icon>arrow_forward</mat-icon></div>
+</section>
 <app-footer></app-footer>
