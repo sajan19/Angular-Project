@@ -17,6 +17,7 @@ import { AboutDlcComponent } from './Components/about-dlc/about-dlc.component';
 import { OurWorldsComponent } from './Components/our-worlds/our-worlds.component';
 import { ExperiencesComponent } from './Components/experiences/experiences.component';
 import { GalleryComponent } from './Components/gallery/gallery.component';
+import { PressComponent } from './Components/press/press.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { GalleryComponent } from './Components/gallery/gallery.component';
     OurWorldsComponent,
     ExperiencesComponent,
     GalleryComponent,
+    PressComponent,
     
   ],
   imports: [

@@ -1,17 +1,17 @@
 #div1 {
-    height:100%;
-    width:100%;
-    background: url(../../../assets/bg_img.jpg) no-repeat 50%/cover;
+    height: 100%;
+    width: 100%;
+    background: url(../../../assets/bg_img.jpg) no-repeat 50% / cover;
     // opacity: 0.1;
 }
 #div2 {
-    height:100%;
-    width:100%;
-    background: url(../../../assets/bg_img.jpg) no-repeat 50%/cover;
+    height: 100%;
+    width: 100%;
+    background: url(../../../assets/bg_img.jpg) no-repeat 50% / cover;
     // border: 2px solid black;
 }
 
-.heading{
+.heading {
     padding: 50xpx;
     border: 2px solid red;
     font-size: 50px;
@@ -26,21 +26,21 @@
     font-size: 0.9rem;
 }
 
-.heading1{
+.heading1 {
     font-family: gt-sectra;
     font-weight: 200;
     font-size: 40px;
     padding-top: 90px;
     padding-left: 150px;
 }
-.heading2{
+.heading2 {
     font-family: gotham;
     font-weight: 100;
     font-size: 40px;
     padding-left: 150px;
     padding-bottom: 60px;
 }
-.paragraph{
+.paragraph {
     display: block;
     text-align: start;
     position: relative;
@@ -49,7 +49,7 @@
     font-size: 1.1rem;
     font-family: messina-sans;
 }
-.image1{
+.image1 {
     // display: flex;
     // flex-direction: row-reverse;
     height: 280px;
@@ -59,37 +59,37 @@
     // display: inline-block;
     position: absolute;
 }
-.image2{
+.image2 {
     // display: flex;
     // flex-direction: row-reverse;
     height: 66%;
     width: 36%;
-    padding-top: 90px ;
+    padding-top: 90px;
     padding-left: 700px;
 }
 
-.section_2{
+.section_2 {
     display: inline-block;
     position: absolute;
     // flex-direction: row-reverse;
     // flex-wrap: wrap;
 }
-.para2{
+.para2 {
     padding-bottom: 100px;
 }
 #div3 {
-    height:100%;
-    width:100%;
-    background-color: white no-repeat 50%/cover;
+    height: 100%;
+    width: 100%;
+    background-color: white no-repeat 50% / cover;
     // opacity: 0.1;
 }
-.slider{
+.slider {
     height: 400px;
     width: auto;
     display: flex;
     flex-direction: row;
 }
-.card_img{
+.card_img {
     height: 450px;
     // height: fit-content;
     width: 380px;
@@ -97,14 +97,14 @@
     padding-top: 50px;
     // padding-bottom: 20px;
 }
-.container_2{
+.container_2 {
     height: 100%;
     width: 100%;
     // border: 5px solid red;
     padding-bottom: 150px;
-    padding-top: 50px
+    padding-top: 50px;
 }
-.container_3{
+.container_3 {
     height: 100%;
     width: 100%;
     // border: 5px solid red;
@@ -116,175 +116,138 @@
     position: absolute;
     bottom: 20px;
     left: 200px;
-    color:white;
+    color: white;
     font-size: 4.5rem;
     bottom: 120px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     letter-spacing: 6px;
     padding-bottom: 10px;
     // line-height: 150px;
-  }
-  .subtitle {
+}
+.subtitle {
     position: absolute;
     bottom: 100px;
     left: 200px;
     color: white;
     font-size: 3.5rem;
     letter-spacing: 6px;
-  }
+}
 
-  .card_title{
+.card_title {
     position: relative;
     bottom: 100px;
     left: 60px;
-    color:white;
-  }
-  .card_subtitle{
+    color: white;
+}
+.card_subtitle {
     position: relative;
     bottom: 100px;
     left: 60px;
-    color:white;
-  }
-  .mat-card{
+    color: white;
+}
+.mat-card {
     //   border: 2px solid red;
     //   display: block;
-      height: fit-content;
-  }
+    height: fit-content;
+}
 
-  //Container 4 Globe
+//Container 4 Globe
 
-  .container_4{
+.container_4 {
     height: 100%;
     width: 100%;
     // border: 5px solid red;
     padding: 60px 0px;
     // margin: 0;
     z-index: 2;
-    }
+}
 
-  #div4{
-    height:50%;
-    width:100%;
+#div4 {
+    height: 50%;
+    width: 100%;
     background-color: white;
     // background: url(../../../assets/gps/globe-usa.jpg) no-repeat center cover;
     // z-index: 50;
     // opacity: 0.3;
-    // border: 2px solid black; 
-    }
-    .count{
-        padding-top: 40px ;
-        padding-bottom: 40px ;
-        display: flex;
-        padding-left: 150px;
-    }
-    // .count::after{
-    //     background: url(../../../assets/gps/globe-usa.jpg) no-repeat 50%/cover;
-    // }
-    .country{
-        padding-right:40px ;
-        font-weight: bold;
-        text-decoration: underline;
-    }
-    // .bg_img {
-    //     background-image: url(../../../assets/gps/globe-usa.jpg); /* The image used */
-    //     background-color: #cccccc; /* Used if the image is unavailable */
-    //     height: 500px; /* You must set a specified height */
-    //     background-position: center; /* Center the image */
-    //     background-repeat: no-repeat; /* Do not repeat the image */
-    //     background-size: cover; /* Resize the background image to cover the entire container */
-    //     padding-top: 200px;
-    //   }
+    // border: 2px solid black;
+}
+.count {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    padding-left: 150px;
+}
+// .count::after{
+//     background: url(../../../assets/gps/globe-usa.jpg) no-repeat 50%/cover;
+// }
+.country {
+    padding-right: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
 
-    .container_5{
-        height: 100%;
-        width: 100%;
-        // border: 5px solid red;
-        // padding: 60px 0px;
-        // margin: 0;
-        // z-index: 2;
-        }
-    
-      #div5{
-        height:100%;
-        width:70%;
-        padding-top: 120px;
-        // background-color: yellow;
-        background: url(../../../assets/gps/globe-usa.jpg) no-repeat 50%/cover;
-        
-        }
-        // .bg_color{
-        //     // height: 70%;
-        //     // width: 50%;
-        //     background-color: black;
-        //     position: absolute;
-        //     right: 0;
-        //     // top: 50;
-        //     // padding-top: 100px;
-        // }
-        // .image_top{
-        //     height: 70%;
-        //     width: 25%;
-        //     position: relative;
-        //     top: 10;
-        //     // right: 0;
-        //     padding-left: 960px;
-        // }
-        // .img_grow{
-        //     height: 60%;
-        //     width: 100%;
-        // }
-        #bg_card{
-            // padding-top:150px;
-            height: 65%;
-            width: 45%;
-            background-color: black;
-            position: absolute;
-            right: 0;
-            z-index: 20;
-            // padding-top: 220px;
-        }
-        #img_float{
-            height: 580px;
-            width: 270px;
-            // width: 30%;
-            position: absolute;
-            // right: 10;
-            padding-left: 1030px;
-            z-index: 30;
-        }
-        .first{
-            color: white;
-            padding:30px;
-            // background-color: yellow;
-            // height: 450px;
-            // width: 300px;
-        }
-        .second{
-            color: white;
-            padding-left:35px;
-
-        }
-        .tit{
-            color: white;
-            padding:35px;
-            font-size: 40px;
-        }
-        .sub{
-            color: white;
-            padding-top:100px;
-            padding-left: 35px;
-            font-size: 20px;
-        }
-        .material-icons{
-            padding-right:25px;
-            font-size: 40px;
-        }
-
-
-// Section 6 TO display Video inside Image
-
-.container_6{
+.container_5 {
+    height: 100%;
+    width: 100%;
     // border: 5px solid red;
+    // padding: 60px 0px;
+    // margin: 0;
+    // z-index: 2;
+}
+
+#div5 {
+    height: 100%;
+    width: 70%;
+    padding-top: 120px;
+    // background-color: yellow;
+    background: url(../../../assets/gps/globe-usa.jpg) no-repeat 50% / cover;
+}
+#bg_card {
+    // padding-top:150px;
+    height: 65%;
+    width: 45%;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    z-index: 20;
+    // padding-top: 220px;
+}
+#img_float {
+    height: 580px;
+    width: 270px;
+    // width: 30%;
+    position: absolute;
+    // right: 10;
+    padding-left: 1030px;
+    z-index: 30;
+}
+.first {
+    color: white;
+    padding: 30px;
+}
+.second {
+    color: white;
+    padding-left: 35px;
+}
+.tit {
+    color: white;
+    padding: 35px;
+    font-size: 40px;
+}
+.sub {
+    color: white;
+    padding-top: 100px;
+    padding-left: 35px;
+    font-size: 20px;
+}
+.material-icons {
+    padding-right: 25px;
+    font-size: 40px;
+}
+
+.container_6 {
+    // border: 2px solid purple;
+    // background-color: yellow;
     height: 100vh;
     width: 100wh;
     // background-color: pink;
@@ -292,66 +255,147 @@
     flex-direction: row;
     padding: 0;
     margin: 0;
-    opacity: 0.89;
+    position: relative;
+    // opacity: 0.89;
 }
-// .slide_11{
-//     height: 100%;
-//     width: 40%;
-//     opacity: 0.9;
-// }
-.one{
-    // border: 2px solid green;
-    // background-color: yellow;
-    // z-index: -222;
+.one {
     height: 100%;
     width: 33%;
-    position: relative;
-}
-.two{
-    // border: 2px solid green;
-    // background-color: red;
-    height: 100%;
-    width: 33%;    
-    position: relative;
-
-}
-.three{
-    // border: 2px solid green;
+    // border: 2px solid blue;
     // background-color: cyan;
-    height: 100%;
-    width: 34%;
     position: relative;
-    
 }
-
+.two {
+    height: 100%;
+    width: 33%;
+    // border: 2px solid blue;
+    // background-color: cyan;
+    position: relative;
+}
+.img_sld_1 {
+    height: 100%;
+    width: 103%;
+    position: relative;
+}
 .img_h1 {
     position: absolute;
-    text-align: center;
+    // text-align: center;
     top: 270px;
-    left: 105px;
+    left: 90px;
     color: white;
     font-size: 40px;
     letter-spacing: 4px;
-    font-family: sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
-.img_sld_1{
-    height: 100%;
-    width: 100%;
-    // z-index: -1;
-    // opacity: 0.1;
-}
-.btn{
+.img_h2 {
     position: absolute;
     // text-align: center;
+    top: 270px;
+    left: 90px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: "Times New Roman", Times, serif;
+}
+.img_h3 {
+    position: absolute;
+    // text-align: center;
+    top: 270px;
+    left: 90px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.three {
+    height: 100%;
+    width: 33%;
+    // border: 2px solid blue;
+    // background-color: maroon;
+    position: relative;
+}
+
+.btn_1 {
+    position: absolute;
+    background: transparent;
     top: 370px;
-    left: 160px;
+    left: 180px;
     border-color: white;
-    // background-color: white;
-    color: black;
-    font-size: 52px;
-    // letter-spacing: 4px;
+    color: white;
+    font-size: 40px;
     border-radius: 85px;
-    opacity: 0.5;
     padding-left: 15px;
     cursor: pointer;
+}
+.btn_2 {
+    position: absolute;
+    background: transparent;
+    top: 370px;
+    left: 180px;
+    border-color: white;
+    color: white;
+    font-size: 40px;
+    border-radius: 85px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.btn_3 {
+    position: absolute;
+    background: transparent;
+    top: 370px;
+    left: 180px;
+    border-color: white;
+    color: white;
+    font-size: 40px;
+    border-radius: 85px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.video121 {
+    position: absolute;
+    // height: 100%;
+    width: 100%;
+    top: 530%;
+    // z-index: 6;
+}
+.close_btn {
+    position: absolute;
+    border: none;
+    background: transparent;
+    top: 535%;
+    right: 40px;
+    padding: 15px;
+    font-size: 35px;
+    color: white;
+    // background-color: red;
+}
+.content_1 {
+    position: absolute;
+    top: 555%;
+    left: 140px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+.heading_121 {
+    font-size: 40px;
+    margin-bottom: 35px;
+    position: relative;
+}
+.para {
+    padding: 5px 0px;
+    font-size: 20px;
+    position: relative;
+}
+
+.btn_1234 {
+    position: relative;
+    font-size: 20px;
+    padding: 20px 40px;
+    // opacity: 0.7;
+    margin-top: 50px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
 }

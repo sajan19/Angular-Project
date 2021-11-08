@@ -1,11 +1,13 @@
 <app-header></app-header>
 <section class="container_1">
-    <video id = "div1"class="video" src="https://player.vimeo.com/external/536055631.hd.mp4?s=7f6a254bdf972674127e5909312fa5de8b8d2453&amp;profile_id=174&amp;download=1" autoplay loop muted>
+    <video id="div1" class="video"
+        src="https://player.vimeo.com/external/536055631.hd.mp4?s=7f6a254bdf972674127e5909312fa5de8b8d2453&amp;profile_id=174&amp;download=1"
+        autoplay loop muted>
         <!-- <div class="heading">Discover</div>
     <div class="heading">your world</div> -->
-</video>
-            <p class="title">Discover</p>
-            <p class="subtitle">your world</p>
+    </video>
+    <p class="title">Discover</p>
+    <p class="subtitle">your world</p>
 
 </section>
 <section class="container_2" id="div2">
@@ -21,114 +23,138 @@
             <div class="paragraph">Reassuringly exclusive. Generously welcoming. Find </div>
             <div class="paragraph">your unique world – a place where families love to be; </div>
             <div class="paragraph para2">creating unforgettable moments, together.</div>
-        </div>  
+        </div>
 
         <div class="image123">
-            <img  class="image1" src="../../../assets/image2.jpg" alt="" srcset="">
+            <img class="image1" src="../../../assets/image2.jpg" alt="" srcset="">
         </div>
     </div>
-  
-        <div class="image211">
-            <img class="image2" src="../../../assets/image1.jpg" alt="" srcset="">
-        </div>
+
+    <div class="image211">
+        <img class="image2" src="../../../assets/image1.jpg" alt="" srcset="">
+    </div>
     <!-- </div> -->
 </section>
 
 <!-- Image Slider Section -->
 <section class="container_3" id="div3">
-    
-        <div class="heading1">Explore</div>
-        <div class="heading2">our worlds</div>
-        <div>
-            <ng-image-slider #nav
-            [images]="imageObject"
-            [infinite]="true"
-            [autoSlide]="0.1"
-            [animationSpeed]="5"
-            [showArrow]="false"
-            [imageSize]="{width: '30%', height: 500}"
-            ></ng-image-slider>
-        </div> 
-    </section>
 
-
-    <!-- //Section to showcase to Globe -->
-
-    <section class="container_4" id="div4">
-        <div class="">
-            <div class="heading1">Lands of</div>
-            <div class="heading2">Discovery</div>
-        </div>
-        <div class="paragraph honda">A world away from the day-to-day. Your escape. Your haven. Your world. </div>
-        <div class="paragraph honda">Explore the map below and take a journey to our communities </div>
-        <div class="count">
-            <div class="country">North America & Caribbean</div>
-            <div class="country">Hawaii</div>
-            <div class="country">Europe</div>
-        </div>
-        <!-- <hr>   -->
-    </section>
-    <section class="container_5 bg_img" id="div5">
-        <div>
-
-            <img id="img_float" class="image_top" src="../../../assets/slider/Slider_img4.jpg" alt="" srcset="">   
-            
-        </div>
-        <mat-card id="bg_card" class="bg_color">
-            <div class="first">
-
-                <i class="material-icons">arrow_back</i>
-                <i class="material-icons">arrow_forward</i>
-            </div>
-                <div class="second">
-                <i class="material-icons">hub</i>
-                <i class="material-icons">air</i>
-                <i class="material-icons">sunny</i>
-                </div>
-               <div class="third">
-                <mat-card-subtitle class="sub" >Austin, Texas</mat-card-subtitle >
-                <mat-card-title class="tit" >Driftwood</mat-card-title>
-            </div>
-        </mat-card>
-    </section>
-    
-    
-    <!-- Section to display Video inside Images -->
-<section class="container_6">
-    <!-- <div *ngif = "displayImage"> -->
-
-        
-        <div class="one">
-            <img class="img_sld_1" src="../../../assets/section-5/slider_img_1.jpg" alt="" srcset="">
-            <h1 class="img_h1">Experiences</h1>
-            <!-- <button onclick="Submit" class="btn"><i class="material-icons">arrow_forward</i></button> -->
-            <button class="btn" ><mat-icon>arrow_forward</mat-icon></button>
-            
-        </div>
-        <div class="two">
-            <img class="img_sld_1" src="../../../assets/section-5/slider_img_2.jpg" alt="" srcset="">
-            <h1 class="img_h1">Lifestyle</h1>
-            <!-- <button onclick="Submit" class="btn"><i class="material-icons">arrow_forward</i></button> -->
-            <!-- <button class="btn"><i class="material-icons">arrow_forward</i></button> -->
-            <button class="btn"><mat-icon>arrow_forward</mat-icon></button>
-        </div>
-        <div class="three">
-            <img class="img_sld_1" src="../../../assets/section-5/slider_img_3.jpg" alt="" srcset="">
-            <h1 class="img_h1">Wellness</h1>
-            <!-- <button onclick="Submit" class="btn"><i class="material-icons">arrow_forward</i></button> -->
-            <!-- <button class="btn"><i class="material-icons">arrow_forward</i></button> -->
-            <button class="btn" ><mat-icon>arrow_forward</mat-icon></button>
-        </div>
-    <!-- </div> -->
-    <div *ngif = "displayVideo_1">
-        <video class="js-panels__video" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" preload="metadata" muted="" loop="" playsinline=""></video>
+    <div class="heading1">Explore</div>
+    <div class="heading2">our worlds</div>
+    <div>
+        <ng-image-slider #nav [images]="imageObject" [infinite]="true" [autoSlide]="0.1" [animationSpeed]="5"
+            [showArrow]="false" [imageSize]="{width: '30%', height: 500}"></ng-image-slider>
     </div>
-    <div *ngif = "displayVideo_2">
-        <video class="js-panels__video" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" preload="metadata" muted="" loop="" playsinline=""></video>
-    </div>
-    <div *ngif = "displayVideo_3">
-        <video class="js-panels__video" src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236" preload="metadata" muted="" loop="" playsinline=""></video>
-    </div>
-    
 </section>
+
+
+<!-- //Section to showcase to Globe -->
+
+<section class="container_4" id="div4">
+    <div class="">
+        <div class="heading1">Lands of</div>
+        <div class="heading2">Discovery</div>
+    </div>
+    <div class="paragraph honda">A world away from the day-to-day. Your escape. Your haven. Your world. </div>
+    <div class="paragraph honda">Explore the map below and take a journey to our communities </div>
+    <div class="count">
+        <div class="country">North America & Caribbean</div>
+        <div class="country">Hawaii</div>
+        <div class="country">Europe</div>
+    </div>
+    <!-- <hr>   -->
+</section>
+<section class="container_5 bg_img" id="div5">
+    <div>
+
+        <img id="img_float" class="image_top" src="../../../assets/slider/Slider_img4.jpg" alt="" srcset="">
+
+    </div>
+    <mat-card id="bg_card" class="bg_color">
+        <div class="first">
+
+            <i class="material-icons">arrow_back</i>
+            <i class="material-icons">arrow_forward</i>
+        </div>
+        <div class="second">
+            <i class="material-icons">hub</i>
+            <i class="material-icons">air</i>
+            <i class="material-icons">sunny</i>
+        </div>
+        <div class="third">
+            <mat-card-subtitle class="sub">Austin, Texas</mat-card-subtitle>
+            <mat-card-title class="tit">Driftwood</mat-card-title>
+        </div>
+    </mat-card>
+</section>
+
+
+<!-- Section to display Video inside Images -->
+<section class="container_6">
+    <div class="one">
+        <img class="img_sld_1" src="../../../assets/section-5/slider_img_1.jpg" alt="" srcset="">
+        <h1 class="img_h1">Experiences</h1>
+        <button (click)="image1Click()" class="btn_1">
+            <mat-icon>arrow_forward</mat-icon>
+        </button>
+    </div>
+    <div class="two">
+        <img class="img_sld_1" src="../../../assets/section-5/slider_img_2.jpg" alt="" srcset="">
+        <h1 class="img_h2">Lifestyle</h1>
+        <button (click)="image2Click()" class="btn_2">
+            <mat-icon>arrow_forward</mat-icon>
+        </button>
+    </div>
+    <div class="three">
+        <img class="img_sld_1" src="../../../assets/section-5/slider_img_3.jpg" alt="" srcset="">
+        <h1 class="img_h3">Wellness</h1>
+        <button (click)="image3Click()" class="btn_3">
+            <mat-icon>arrow_forward</mat-icon>
+        </button>
+    </div>
+</section>
+
+<div *ngIf="displayVideo_1">
+    <video autoplay loop muted class="video121"
+        src="https://dxaurk9yhilm4.cloudfront.net/experiences_190722_093236.mp4?mtime=20190722023236"></video>
+    <div class="content_1">
+        <div class="heading_121">Experiences</div>
+        <div class="para">Experiences the ultimate round of golf on championship</div>
+        <div class="para">courses designed by the world's most highly acclaimed</div>
+        <div class="para">architects or take a trilling adventre with limitless</div>
+        <div class="para">activities for everyone to enjoy.</div>
+        <button class="btn_1234">Explore</button>
+    </div>
+    <button (click)="closeVideo()" class="close_btn">X</button>
+</div>
+<div *ngIf="displayVideo_2">
+    <video autoplay loop muted class="video121"
+        src="https://dxaurk9yhilm4.cloudfront.net/lifestyle.mp4?mtime=20190609070318" preload="metadata"></video>
+    <div class="content_1">
+        <div class="heading_121">Lifestyle</div>
+        <div class="para">Relish the very best times of your life with the ones you</div>
+        <div class="para">love in our bespoke communities that cater to a family</div>
+        <div class="para">orientated lifestyle through unparalleled amenitiess and</div>
+        <div class="para">inspired experiences.</div>
+        <button class="btn_1234">Explore</button>
+    </div>
+    <button (click)="closeVideo()" class="close_btn">X</button>
+</div>
+
+<div *ngIf="displayVideo_3">
+    <video autoplay loop muted class="video121"
+        src="https://dxaurk9yhilm4.cloudfront.net/wellness.mp4?mtime=20190609070447" preload="metadata"
+        preload="metadata"></video>
+    <div class="content_1">
+        <div class="heading_121">Wellness</div>
+        <div class="para">Relax and refresh your body and your mind in exquisite</div>
+        <div class="para">surroundings. Escape to our stunning pools, unwind in</div>
+        <div class="para">relaxing spas and explore innovative international</div>
+        <div class="para">culinary offerings.</div>
+        <button class="btn_1234">Explore</button>
+    </div>
+    <button (click)="closeVideo()" class="close_btn">X</button>
+</div>
+
+
 <app-footer></app-footer>

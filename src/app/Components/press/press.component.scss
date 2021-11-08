@@ -1,0 +1,164 @@
+// Section 6 TO display Video inside Image
+
+.container_1{
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+}
+.container_6{
+    border: 2px solid purple;
+    background-color: yellow;
+    height: 100vh;
+    width: 100wh;
+    // background-color: pink;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    // opacity: 0.89;
+}
+.one{
+    height: 100%;
+    width: 33%;
+    border: 2px solid blue;
+    background-color: cyan;
+    position: relative;
+}
+.two{
+    height: 100%;
+    width: 33%;
+    border: 2px solid blue;
+    background-color: cyan;
+    position: relative;
+}
+.img_sld_1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.img_h1 {
+    position: absolute;
+    // text-align: center;
+    top: 270px;
+    left: 90px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img_h2 {
+    position: absolute;
+    // text-align: center;
+    top: 270px;
+    left: 90px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img_h3 {
+    position: absolute;
+    // text-align: center;
+    top: 270px;
+    left: 90px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.three{
+    height: 100%;
+    width: 33%;
+    border: 2px solid blue;
+    background-color: maroon;
+    position: relative;
+}
+
+.btn_1{
+    position: absolute;
+    background: transparent;
+    top: 370px;
+    left: 180px;
+    border-color: white;
+    color: white;
+    font-size: 40px;
+    border-radius: 85px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.btn_2{
+    position: absolute;
+    background: transparent;
+    top: 370px;
+    left: 180px;
+    border-color: white;
+    color: white;
+    font-size: 40px;
+    border-radius: 85px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.btn_3{
+    position: absolute;
+    background: transparent;
+    top: 370px;
+    left: 180px;
+    border-color: white;
+    color: white;
+    font-size: 40px;
+    border-radius: 85px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.video{
+    position: absolute;
+    // height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    // z-index: 6;
+}
+.close_btn{
+    position: absolute;
+    border: none;
+    background: transparent;
+    top: 33px;
+    right: 40px;
+    padding: 15px;
+    font-size: 35px;
+    color: black;
+    // background-color: red;
+}
+.content_1{
+    position: absolute;
+    top: 185px;
+    left: 140px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading_1{
+font-size: 40px;
+margin-bottom: 35px;
+position: relative;
+}
+.para{
+    padding: 5px 0px;
+    font-size: 20px;
+    position: relative;
+}
+
+.btn_1234{
+    position: relative;
+    font-size: 20px;
+    padding: 20px 40px;
+    // opacity: 0.7;
+    margin-top: 50px;
+    background-color:transparent;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;    
+}
