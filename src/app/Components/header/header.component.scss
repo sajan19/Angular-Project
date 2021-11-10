@@ -1,51 +1,101 @@
 
 .container_1{
-  width: 100%;
-  top: 0;
-  display: flex;
-  // position: sticky;
-  // overflow:hidden;
-  background: transparent;
-  position: absolute;
-  background-color: none;
-  z-index: 5;
-  
-}
-.logo{
-  // height: 80px;
-  height: 50px;
-  width: 200px;
-  margin-left: 100px;
-  margin-top: 30px;
-  filter: invert(100%)
-}
-.spacer {
-  flex: 1 1 auto;
-}
-.tag{
-  padding: 10px 30px;
-  color: white;
-}
-a{
-  font-size: 1.2rem;
-  text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-}
-a:hover {
-  text-decoration: underline;
-  cursor: pointer;
-} 
-.menu_bar{
-  margin-top: 45px;
-  margin-left: 20px;
-  color: white;  
-}
-.menu_bar:hover{
-  cursor: pointer;
-} 
-.nav_bar{
-  margin-top: 45px;
-  margin-left: 200px;
-  padding-right: 30px;
-  padding-left: 30px;
-}
+    width: 100%;
+    top: 0;
+    display: flex;
+    // position: sticky;
+    // overflow:hidden;
+    background: transparent;
+    position: absolute;
+    background-color: none;
+    z-index: 5;
+    
+  }
+  .logo{
+    // height: 80px;
+    height: 50px;
+    width: 200px;
+    margin-left: 100px;
+    margin-top: 30px;
+    filter: invert(100%);    
+  }
+  .spacer {
+    flex: 1 1 auto;
+  }
+  .tag{
+    padding: 10px 30px;
+    color: white;
+  }
+  a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  } 
+  .menu_bar{
+    margin-top: 45px;
+    margin-left: 20px;
+    color: white;  
+  }
+  .menu_bar:hover{
+    cursor: pointer;
+  } 
+  .nav_bar{
+    margin-top: 45px;
+    margin-left: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+
+  .menu_Container{
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    font-size: 100px;
+    
+  }
+  .data{
+    font-size: 60px;
+    padding: 35px 0px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .data:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+  }
+
+  .close_btn{
+    position: absolute;
+    border: none;
+    background: transparent;
+    top: 5%;
+    right: 100px;
+    padding: 15px;
+    font-size: 28px;
+    color: white;
+    z-index: 123;
+    cursor: pointer;
+  }
+  .menuBar_logo{
+    // height: 80px;
+    height: 50px;
+    width: 200px;
+    top: 6%;
+    left: 100px;
+    // margin-left: 100px;
+    // margin-top: 30px;
+    filter: invert(100%);   
+    position: absolute; 
+    z-index: 213;
+  }

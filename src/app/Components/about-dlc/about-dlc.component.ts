@@ -56,6 +56,4 @@ export class AboutDlcComponent implements OnInit {
     //   p:''
     // }
   ];
-
 }
-

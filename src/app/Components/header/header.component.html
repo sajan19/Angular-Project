@@ -1,19 +1,33 @@
-  <nav class="container_1">    
+<nav class="container_1">    
 
-      <div>
-        <a href="/home-page"><img class="logo" src="../../../assets/header/logo.png" alt="" srcset=""></a>
-      </div>
+    <div>
+      <a href="/home-page"><img class="logo" src="../../../assets/header/logo.png" alt="" srcset=""></a>
+    </div>
 
-      <div class="nav_bar">
-        <a href="/about-dlc" class="tag">About DLC</a>
-        <a href="/our-worlds" class="tag">Our Worlds</a>
-        <a href="/experiences" class="tag">Experiences</a>
-        <a href="/gallery" class="tag">Gallery</a>
-        <a href="/press" class="tag">Press</a>
-      </div>
+    <div class="nav_bar">
+      <a href="/about-dlc" class="tag">About DLC</a>
+      <a href="/our-worlds" class="tag">Our Worlds</a>
+      <a href="/experiences" class="tag">Experiences</a>
+      <a href="/gallery" class="tag">Gallery</a>
+      <a href="/press" class="tag">Press</a>
+    </div>
 
-      <div class="menu_bar">
-        <mat-icon class="">menu</mat-icon>
-      </div>
-      
-  </nav>
+    <div class="menu_bar">
+      <mat-icon (click)="clickMenuBar()" class="">menu</mat-icon>
+    </div>
+    
+</nav>
+
+<div *ngIf="displayMenuBar">
+  <div class="menu_Container">
+    <div class="data">Magazine</div>
+    <div class="data">Company</div>
+    <div class="data">Foundation</div>
+    <div class="data">Careers</div>
+    <div class="data">Contact</div>
+  </div>
+  <button (click)="closeVideo()" class="close_btn">X</button>
+  <div>
+    <a href="/home-page"><img class="menuBar_logo" src="../../../assets/header/logo.png" alt="" srcset=""></a>
+  </div>
+</div>

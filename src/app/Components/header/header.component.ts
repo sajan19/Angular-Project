@@ -11,5 +11,17 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  menuBar: any = true;
+  displayMenuBar: any = false;
 
+  clickMenuBar(){
+    this.menuBar = false;
+    this.displayMenuBar = true;
+  }
+
+  closeVideo(){
+    this.menuBar = true;
+    this.displayMenuBar = false;
+
+  }
 }
